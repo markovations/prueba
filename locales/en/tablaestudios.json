@@ -1,0 +1,26 @@
+{
+	"headings": null,
+	"perPage": 5,
+	"perPageValues": [
+		5,
+		10,
+		25,
+		50,
+		100
+	],
+	"sortIcon": {
+		"is": "fa-sort",
+		"base": "fas",
+		"up": "fa-sort-up",
+		"down": "fa-sort-down"
+	},
+	"texts": {
+        "institucion":"institution",
+        "nombrenivel":"level",
+        "nombretipo":"type",
+        "desde":"since",
+        "hasta":"until",
+        "nombre":"name",
+        "action":"action"
+	}
+}
