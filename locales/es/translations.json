@@ -1,14 +1,4 @@
 {
-	"file": {
-		"MAXSIZE": "El tamaño de la entrada de archivo debe ser inferior a 50 KB."
-	},
-	"permisos": {
-		"CREAR": "Crear",
-		"EDITAR": "Editar",
-		"ELIMINAR": "Eliminar",
-		"PERMISOS": "Permisos",
-		"MASIVOS": "Masivos"
-	},
 	"maestros": {
 		"AUTENTICACION": "Autenticación",
 		"reglas": {
@@ -29,8 +19,7 @@
 		"PICKVALUE": "Seleccione un valor",
 		"LISTEMPTY": "La lista está vacía",
 		"NORESULT": "¡Uy! No se encontraron elementos",
-		"ADDDATA": "Agregar registros...",
-		"NOSELECT": "Debe seleccionar al menos una opción"
+		"ADDDATA": "Agregar registros..."
 	},
 	"autenticacion": {
 		"WELCOME": "Inicia sesión para continuar",
@@ -143,15 +132,6 @@
 		"VALOR": "Valor",
 		"ROL": "Rol",
 		"EDITARMASIVOS": "Editar campos de forma masiva",
-		"VIUDO": "Viudo",
-		"ACCESOEMPRESA": "Acceso Empresa",
-		"TIPOCONTRATO": "Tipo Contrato",
-		"PLANILLAS": "Planillas",
-		"HONORARIOS": "Honorario",
-		"FECHAINICIO": "Inicio",
-		"FECHAFIN": "Fin",
-		"DIASVACAS": "Días Vacaciones",
-		"INDICARPERIODO": "Indicar Periodo",
 		"datatable": {
 			"NORESULT": "Resultados no encontrados",
 			"ANTERIOR": "Anterior",
@@ -223,8 +203,8 @@
 			"WIDGETS": "Widgets",
 			"DOCUMENTATION": "Documentación",
 			"element": {
-				"AREA": "Área",
-				"EMPLEADOSAREA": "Empleados por Área",
+				"AREA":"Área",
+				"EMPLEADOSAREA":"Área Empleados",
 				"ELEMENTS": "Elementos",
 				"BUTTON": "Boton",
 				"COLOR": "Colores",
@@ -251,8 +231,7 @@
 				"CARGO": "Cargo",
 				"NAME": "Nombre",
 				"AREAEMPLEADOS": "Área empleados",
-				"REGLA": "Reglas",
-				"CONTRATOS": "Contratos"
+				"REGLA": "Reglas"
 			},
 			"form": {
 				"FORM": "Formularios",

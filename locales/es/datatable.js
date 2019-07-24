@@ -1,16 +1,6 @@
 const options = [{
 	rowClassCallback(row) {
-		if (row.estado_empleado_hdn != undefined) {
-			return row.estado_empleado_hdn === 1 ? 'user-bloqueado' : '';
-		}
-		if (row.estadoContrato_hdn != undefined) {
-			if (row.estadoContrato_hdn == 2) {
-				return row.estadoContrato_hdn === 2 ? 'contrato-culminado' : '';
-			}
-			if (row.estadoContrato_hdn == 3) {
-				return row.estadoContrato_hdn === 3 ? 'contrato-vencido' : '';
-			}
-		}
+		return row.estado_empleado_hdn === 1 ? 'user-bloqueado' : '';
 	},
 	filterByColumn: true,
 	sortable: [
@@ -35,14 +25,7 @@ const options = [{
 		"password",
 		"serie",
 		"marca",
-		"descripcion",
-		"vista",
-		// "fechaInicio",
-		// "fechaFin"
-		"usuario",
-		"periodo",
-		"TipoContrato",
-		"Dias"
+		"descripcion"
 	],
 	filterable: [
 		"codigo",
@@ -66,15 +49,7 @@ const options = [{
 		"password",
 		"serie",
 		"marca",
-		"descripcion",
-		"name",
-		"vista",
-		// "fechaInicio",
-		// "fechaFin"
-		"usuario",
-		"periodo",
-		"TipoContrato",
-		"Dias"
+		"descripcion"
 	],
 	headings: {
 		"Check": function (h) {
@@ -90,7 +65,6 @@ const options = [{
 		"documento_usuario": "DNI",
 		"rol": "Rol",
 		"nombre": "Nombre",
-		"name": "Nombre",
 		"direccion": "Dirección",
 		"empresa": "Empresa",
 		"dominio": "Dominio",
@@ -124,19 +98,7 @@ const options = [{
 		"sueldo": "Sueldo",
 		"observacion": "Observación",
 		"descripcion": "Descripción",
-		"valor": "Valor",
-		"vista": "Vista",
-		"crear": "Crear",
-		"editar": "Editar",
-		"eliminar": "Eliminar",
-		"masivo": "Masivos",
-		"ver": "Ver",
-		"fechaInicio": "Fecha Inicio",
-		"fechaFin": "Fecha Fin",
-		"usuario": "Usuario",
-		"periodo": "Periodo",
-		"TipoContrato": "Tipo Contrato",
-		"Dias": "Días"
+		"valor": "Valor"
 	},
 	perPage: 5,
 	perPageValues: [

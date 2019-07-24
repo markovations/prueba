@@ -1,14 +1,4 @@
 {
-	"file": {
-		"MAXSIZE": "The fileInput size must be less than 50 KB."
-	},
-	"permisos": {
-		"CREAR": "Create",
-		"EDITAR": "Edit",
-		"ELIMINAR": "Delete",
-		"PERMISOS": "Permits",
-		"MASIVOS": "Massive"
-	},
 	"maestros": {
 		"AUTENTICACION": "Aunthenticate",
 		"reglas": {
@@ -29,8 +19,7 @@
 		"PICKVALUE": "Pick a value",
 		"LISTEMPTY": "List is empty",
 		"NORESULT": "¡Oops! No elements found",
-		"ADDDATA": "Add data...",
-		"NOSELECT": "You must select at least one option"
+		"ADDDATA": "Add data..."
 	},
 	"autenticacion": {
 		"WELCOME": "Sign in to continue",
@@ -145,15 +134,6 @@
 		"VALOR": "Value",
 		"ROL": "Role",
 		"EDITARMASIVOS": "Edit fields massive",
-		"VIUDO": "Widower",
-		"ACCESOEMPRESA": "Company Access",
-		"TIPOCONTRATO": "Contract Type",
-		"PLANILLAS": "Spreadsheets",
-		"HONORARIOS": "Fee",
-		"FECHAINICIO": "Start",
-		"FECHAFIN": "End",
-		"DIASVACAS": "Vacation Days",
-		"INDICARPERIODO": "Indicate Period",
 		"datatable": {
 			"NORESULT": "Results not found",
 			"ANTERIOR": "PREVIOUS",
@@ -222,8 +202,8 @@
 			"WIDGETS": "Widgets",
 			"DOCUMENTATION": "Documentation",
 			"element": {
-				"AREA": "Area",
-				"EMPLEADOSAREA": "Empleoyees by Area",
+				"AREA":"Area",
+				"EMPLEADOSAREA":"Area Empleoyees",
 				"ELEMENTS": "Elements",
 				"BUTTON": "Button",
 				"COLOR": "Colors",
@@ -245,12 +225,11 @@
 				"Empleado": "Employees",
 				"USUARIO": "Users",
 				"EMPLEADO": "Employees",
-				"AREAS": "Areas",
-				"ESTUDIOS": "Estudios",
+				"AREAS":"Areas",
+				"ESTUDIOS":"Estudios",
 				"CARGO": "Position",
-				"AREAEMPLEADOS": "Area Employees",
-				"REGLA": "Rules",
-				"CONTRATOS": "Contracts"
+				"AREAEMPLEADOS":"Area Employees",
+				"REGLA": "Rules"
 			},
 			"form": {
 				"FORM": "Forms",

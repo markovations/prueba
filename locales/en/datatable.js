@@ -1,16 +1,6 @@
 const options = [{
 	rowClassCallback(row) {
-		if (row.estado_empleado_hdn != undefined) {
-			return row.estado_empleado_hdn === 1 ? 'user-bloqueado' : '';
-		}
-		if (row.estadoContrato_hdn != undefined) {
-			if (row.estadoContrato_hdn == 2) {
-				return row.estadoContrato_hdn === 2 ? 'contrato-culminado' : '';
-			}
-			if (row.estadoContrato_hdn == 3) {
-				return row.estadoContrato_hdn === 3 ? 'contrato-vencido' : '';
-			}
-		}
+		return row.estado_empleado_hdn === 1 ? 'user-bloqueado' : '';
 	},
 	filterByColumn: true,
 	sortable: [
@@ -35,14 +25,7 @@ const options = [{
 		"password",
 		"serie",
 		"marca",
-		"descripcion",
-		"vista",
-		// "fechaInicio",
-		// "fechaFin",
-		"usuario",
-		"periodo",
-		"TipoContrato",
-		"Dias"
+		"descripcion"
 	],
 	filterable: [
 		"codigo",
@@ -66,19 +49,17 @@ const options = [{
 		"password",
 		"serie",
 		"marca",
-		"descripcion",
-		"name",
-		"vista",
-		// "fechaInicio",
-		// "fechaFin",
-		"usuario",
-		"periodo",
-		"TipoContrato",
-		"Dias"
+		"descripcion"
 	],
 	headings: {
 		"Check": function (h) {
-			return <label></label>
+			return <b-form-checkbox
+				id="check_Empresas"
+				name="check_Empresas"
+				value="1"
+				unchecked-value="0"
+			>
+		  </b-form-checkbox>
 		},
 		"Acciones": "Actions",
 		"codigo": "Code",
@@ -90,7 +71,6 @@ const options = [{
 		"documento_usuario": "DNI",
 		"rol": "Role",
 		"nombre": "Name",
-		"name": "Name",
 		"direccion": "Direction",
 		"empresa": "Company",
 		"dominio": "Domain",
@@ -125,19 +105,7 @@ const options = [{
 		"sueldo": "Salary",
 		"observacion": "Observation",
 		"descripcion": "Description",
-		"valor": "Value",
-		"vista": "View",
-		"crear": "Create",
-		"editar": "Edit",
-		"eliminar": "Delete",
-		"masivo": "Massive",
-		"ver": "View",
-		"fechaInicio": "Start Date",
-		"fechaFin": "End Date",
-		"usuario": "User",
-		"periodo": "Period",
-		"TipoContrato": "Contract Type",
-		"Dias": "Days"
+		"valor": "Value"
 	},
 	perPage: 5,
 	perPageValues: [
