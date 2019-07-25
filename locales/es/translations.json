@@ -45,6 +45,8 @@
 		"ESPANOL": "Español"
 	},
 	"mantenimiento": {
+		"INFOVACACIONES": "Vacaciones",
+		"INFOARCHIVO": "Adjuntar Archivo",
 		"MANTENIMIENTO": "Mantenimiento",
 		"SEDE": "Sede",
 		"DIRECCION": "Dirección",

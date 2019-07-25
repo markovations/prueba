@@ -42,7 +42,11 @@ const options = [{
 		"usuario",
 		"periodo",
 		"TipoContrato",
-		"Dias"
+		"Dias",
+		"contrato_id",
+		"diasDisponibles",
+		"diasAsignados",
+		"diasProgramados"
 	],
 	filterable: [
 		"codigo",
@@ -69,12 +73,16 @@ const options = [{
 		"descripcion",
 		"name",
 		"vista",
-		// "fechaInicio",
-		// "fechaFin",
 		"usuario",
 		"periodo",
 		"TipoContrato",
-		"Dias"
+		"Dias",
+		"contrato_id",
+		"fechaInicio",
+		"fechaFin",
+		"diasDisponibles",
+		"diasAsignados",
+		"diasProgramados"
 	],
 	headings: {
 		"Check": function (h) {
@@ -137,7 +145,11 @@ const options = [{
 		"usuario": "User",
 		"periodo": "Period",
 		"TipoContrato": "Contract Type",
-		"Dias": "Days"
+		"Dias": "Days",
+		"contrato_id": "Contract",
+		"diasProgramados": "Programmed",
+		"diasDisponibles": "Available",
+		"diasAsignados": "Assigned"
 	},
 	perPage: 5,
 	perPageValues: [

@@ -45,6 +45,8 @@
 		"ESPANOL": "Spanish"
 	},
 	"mantenimiento": {
+		"INFOVACACIONES": "Vacations",
+		"INFOARCHIVO": "Attach File",
 		"MANTENIMIENTO": "Maintenance",
 		"SEDE": "Headquearter",
 		"DIRECCION": "Direction",
